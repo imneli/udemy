@@ -1,8 +1,33 @@
-const nome = 'Matheus';
-const nome1 = "Matheus";
-const nome2 = `Matheus`;
-const num1 = 10;
-const num2 = 10.52;
-let nomeAluno; //undefined = nao aponta pra local nenhum na memoria
-let sobrenomeAluno = null; //nulo -> nao aponta para lugar nenhum na memoria
-const aprovado = false;
+const num1 = 5;
+const num2 = 2;
+const num3 = 10
+console.log(num1 * num2 / num3);
+
+function teste() {
+    let contador = 1;
+    contador++; // 2
+    contador++; // 3
+    contador++; // 4
+    contador++; // 5
+    console.log(contador)
+}
+
+// Incremento = ++
+// Decremento = --
+function asd213() {
+    const passo = 50;
+    let contador = 0;
+    contador += 2;
+}
+    
+
+let contador = 2;
+contador *= 2;
+contador *= 2;
+contador *= 2;
+
+const num5 = 'matheus'
+
+// parseInt (Inteiro)
+// parseFloat (Decimais)
+// Number
