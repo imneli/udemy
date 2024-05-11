@@ -1,0 +1,31 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+input {
+    width: 30%;
+    margin: 10px;
+    outline: none;
+    border: none;
+    background-color: #d9d9d9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    width: 30%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+#submit {
+    border: 1px solid #343434;
+    background-color: #d9d9d9;
+    cursor: pointer;
+}
