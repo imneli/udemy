@@ -25,3 +25,4 @@ if (vaiExecutar === true) {
 } else {
     console.log('ERRO! FALSE');
 }
+

@@ -1,14 +1,36 @@
-section {
+* {
+    font-family: 'Poppins';
+}
+
+body {
+    background-color: #cccccc;
+}
+
+form {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
     
 }
 
+h1 {
+    margin-top: 15%;
+    text-align: center;
+}
+
+h1:hover {
+    color: #686868;
+    transition: .6s;
+    cursor: pointer;
+}
+
+
+
 
 input {
-    width: 30%;
+    width: 20%;
     margin: 10px;
     outline: none;
     border: none;
@@ -17,15 +39,23 @@ input {
     border-radius: 5px;
 }
 
-button {
-    width: 30%;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-}
 
 #submit {
     border: 1px solid #343434;
     background-color: #d9d9d9;
     cursor: pointer;
 }
+
+#submit:hover {
+    border: 1px solid #fff;
+    background-color: #343434;
+    color: #fefefe;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.resultado {
+    text-align: center;
+}
+
+
