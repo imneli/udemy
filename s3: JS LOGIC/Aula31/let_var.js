@@ -29,3 +29,5 @@ printOi();
 // let = escopo de bloco { ... bloco }
 
 // var = escopo de função
+
+
