@@ -43,6 +43,7 @@ pausar.addEventListener('click', function(event) {
 
 zerar.addEventListener('click', function(event) {
     clearInterval(timer);
+    timerCont.classList.remove('pause');
     secondsTime = 0;
     timerCont.innerHTML = '00:00:00'
 });
