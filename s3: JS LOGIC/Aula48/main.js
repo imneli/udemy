@@ -22,7 +22,7 @@ function clearInput() {
 function createDeleteButton(li) {
   li.innerText += ' ';
   const deleteButton = document.createElement('button');
-  deleteButton.innerText = 'X';
+  deleteButton.innerText = 'Delete';
   deleteButton.setAttribute('class', 'delete');
   deleteButton.setAttribute('title', 'Delete this task');
   li.appendChild(deleteButton);
