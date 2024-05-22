@@ -12,3 +12,4 @@ console.dir(funcao2());
 console.log(funcao(), funcao2())
 
 // closure é a habilidade de acessar o escopo lexico
+
