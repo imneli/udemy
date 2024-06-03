@@ -1,5 +1,8 @@
 // t-shirt, mug
 
+// herança
+// https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/Classes_in_JavaScript
+
 function Product(name, price) {
    this.name = name;
    this.price = price; 
