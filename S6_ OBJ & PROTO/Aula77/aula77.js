@@ -53,7 +53,7 @@ ValidateCPF.prototype.isSequence = function() {
 
 
 
-const cpf = new ValidateCPF('440.944.688-62')
+const cpf = new ValidateCPF('97547097693')
 console.log(cpf.valid())
 
 if(cpf.valid()){
