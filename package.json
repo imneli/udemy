@@ -1,0 +1,17 @@
+{
+  "name": "udemy2",
+  "version": "1.0.0",
+  "description": "<li href=\"/\">Section 2 / JS BASIC</li> <li href=\"/\">Section 3 / JS LOGIC</li>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7"
+  }
+}
