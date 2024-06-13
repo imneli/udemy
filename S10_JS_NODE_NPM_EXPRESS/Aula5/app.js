@@ -4,10 +4,10 @@ const escreve = require('./modules/escrever');
 const ler = require('./modules/ler');
 
 const pessoas = [
-  { nome: 'João' },
-  { nome: 'Maria' },
-  { nome: 'Eduardo' },
-  { nome: 'Luiza' },
+  { nome: 'ASTRA'},
+  { nome: 'BMW'},
+  { nome: 'NISSAN'},
+  { nome: 'CELTINHA BRABO'},
 ];
 
 const json = JSON.stringify(pessoas, '', 2);

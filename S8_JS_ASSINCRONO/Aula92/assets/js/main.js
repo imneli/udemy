@@ -1,7 +1,7 @@
 // carregar json
 
 axios('pessoas.json')
-  .then(resposta => loadElementsPage(resposta.data))
+   .then(resposta => loadElementsPage(resposta.data))
 
 
 fetch('pessoas.json')
