@@ -18,9 +18,12 @@ const arquivos = [
 // <.+>.+    <\/.+>
 const html = '<p>ola mundo</p> <p>ola dnv</p> <div>sou uma div</div>'
 
+const alfabeto = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789'
+
 module.exports = {
     texto,
     texto2,
     arquivos,
-    html
+    html,
+    alfabeto
 }
