@@ -15,8 +15,12 @@ const arquivos = [
     'lista de compras.txt'
 ]
 
+// <.+>.+    <\/.+>
+const html = '<p>ola mundo</p> <p>ola dnv</p> <div>sou uma div</div>'
+
 module.exports = {
     texto,
     texto2,
-    arquivos
+    arquivos,
+    html
 }
