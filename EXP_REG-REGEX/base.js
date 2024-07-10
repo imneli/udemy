@@ -1,24 +1,26 @@
 const texto = `
-João é um rapaz muito talentoso. Desde criança, João sempre demonstrou interesse por música e arte. Todos os dias, João praticava seu violão com dedicação. Seus amigos sempre diziam: "João, você tem um talento incrível!" Não é surpresa que João tenha se tornado um músico reconhecido na cidade. Jooooão
-`
+João trouxe    flores para sua amada namorada em 10 de janeiro de 1970,
+Maria era o nome dela.
 
-const texto2 = `
-Maria, hoje sua esposa nao sei oq la que seila oq regex eh legal
-`
+
+Foi um ano excelente na vida de joão. Teve 5 filhos, todos adultos atualmente.
+maria, hoje sua esposa, ainda faz aquele café com pão de queijo nas tardes de
+domingo. Também né! Sendo a boa mineira que é, nunca esquece seu famoso
+pão de queijo.
+Não canso de ouvir a Maria:
+"Joooooooooãoooooooooooooooooooooooooooo   , o café tá prontinho aqui. Veeemm"!
+`;
 
 const arquivos = [
-    'atencao.jpg',
-    'foto.jpeg',
-    'meu gatinho.jpg',
-    'meu gatinho.JPEG',
-    'marido.png',
-    'lista de compras.txt'
-]
-
-// <.+>.+    <\/.+>
-const html = '<p>ola mundo</p> <p>ola dnv</p> <div>sou uma div</div>'
-
-const alfabeto = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789'
+  'Atenção.jpg',
+  'FOTO.jpeg',
+  'Meu gatinho.jpg',
+  'Meu gatinho.JPG',
+  'Meu gatinho.JPEG',
+  'Meu gatinho.JPeeEEEEeeeeeeeeeeeeeeeeeeeeeeeeEEEEEEEEEEG',
+  'Marido.png',
+  'lista de compras.txt',
+];
 
 const cpfs = `
 Os CPFs são:
@@ -52,14 +54,33 @@ Os Ips são:
 
 `;
 
-module.exports = {
-    texto,
-    texto2,
-    arquivos,
-    html,
-    alfabeto,
-    cpfs,
-    ips,
-    cpfs2
-}
+const alfabeto =
+  'ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz ®¡ 0123456789 ¡';
+          
+const html = '<p>Olá mundo</p> <p>Olá de novo</p> <div>Sou a div</div>';
+const html2 = `<p 
+data-teste='teste' 
+class="teste teste">
+  Olá mundo
+</p> <p>Olá mundo</p> <div>Sou a div</div>`;
 
+const lookahead = `
+ONLINE  192.168.0.1 ABCDEF inactive
+OFFLINE  192.168.0.2 ABCDEF active
+ONLINE  192.168.0.3 ABCDEF active
+ONLINE  192.168.0.4 ABCDEF active
+OFFLINE  192.168.0.5 ABCDEF active
+OFFLINE  192.168.0.6 ABCDEF inactive
+`;
+
+module.exports = {
+  texto,
+  arquivos,
+  html,
+  html2,
+  alfabeto,
+  cpfs,
+  ips,
+  cpfs2,
+  lookahead
+}
