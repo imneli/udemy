@@ -1,21 +1,23 @@
-// Array<T> - T[]
+// Tuple
+const dadosCliente1: readonly [number, string] = [1, 'Luiz'];
+const dadosCliente2: [number, string, string] = [1, 'Luiz', 'Miranda'];
+const dadosCliente3: [number, string, string?] = [1, 'Luiz'];
+const dadosCliente4: [number, string, ...string[]] = [1, 'Luiz', 'Miranda'];
 
-export function multiplicaArgs(...args: Array<number>): number {
-    return args.reduce((ac, valor) => ac * valor, 1);
-  }
-  
-  export function concatenaString(...args: string[]): string {
-    return args.reduce((ac, valor) => ac + valor);
-  }
-  
-  export function toUpperCase(...args: string[]): string[] {
-    return args.map((valor) => valor.toUpperCase());
-  }
-  
-  const result = multiplicaArgs(1, 2, 3);
-  const concatenacao = concatenaString('a', 'b', 'c');
-  const upper = toUpperCase('a', 'b', 'c');
-  
-  console.log(result);
-  console.log(concatenacao);
-  console.log(upper);
+// dadosCliente1[0] = 100;
+// dadosCliente1[1] = 'Carlos';
+
+console.log(dadosCliente1);
+console.log(dadosCliente2);
+console.log(dadosCliente3);
+console.log(dadosCliente4);
+
+// readonly array
+const array1: readonly string[] = ['Luiz', 'Otávio'];
+const array2: ReadonlyArray<string> = ['Luiz', 'Otávio'];
+
+console.log(array1);
+console.log(array2);
+
+// Module mode
+export default 1;
